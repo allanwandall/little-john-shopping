@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+.header-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0.7rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+    font-family: 'Reenie Beanie', 'serif';
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    overflow: hidden;
+    gap: 2rem;
+}
+
+.header-left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-title {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.6rem;
+    position: relative;
+}
+
+.header-left-side img {
+    width: 4rem;
+    object-fit: cover;
+    object-position: 100% 0%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.header-left-side h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    color: rgb(80, 80, 80);
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav .active {
+    color: red;
+}
+
+.shopping-cart-container {
+    background-color: orange;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.shopping-cart-container img {
+    width: 70%;
+}
+
+.shopping-cart-counter {
+    min-width: 15px;
+    min-height: 15px;
+    padding: 2px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: -9px;
+    right: -9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-cart-counter span {
+    font-family: sans-serif;
+}
+
+.header-title {
+    flex: 1;
+    text-align: left;
+}
+
+.header-right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
